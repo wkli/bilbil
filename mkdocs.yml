@@ -24,7 +24,7 @@ plugins:
     - mkdocs-jupyter:
           include_source: True
           # execute: True
-          
+
 markdown_extensions:
     - attr_list
     - pymdownx.superfences
@@ -46,3 +46,5 @@ nav:
     - Report Issues: https://github.com/wkli/bilbil/issues
     - API Reference:
           - bilbil module: bilbil.md
+    - Notebooks:
+        - notebooks/intro.ipynb
